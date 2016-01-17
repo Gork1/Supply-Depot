@@ -2,7 +2,8 @@
 Supply Depot 0.1
 
 To do :
-1. Create DB or 2 Tables.
+
+1) Create DB or 2 Tables.
    - One that stores each and every input/output in the depot.
      - ItemCode: Item Code
      - Date: Date of input/output
@@ -16,8 +17,10 @@ To do :
      - StockAddress: Integers from 1 to infinity
      - ItemCode
      - ItemAmount: Total Amount in this address
-2. Setup interaction between external input/output and DB/Tables.
-3. Setup log with, in order:
-   - *Date*: *Absolute value of ItemChange* *ItemName* [*ItemCode*] were
-   added to/taken from Compartment *StockAddress* by *ChangeOrigin* for
-   a new total of *ItemAmount* *ItemName* [*ItemCode*].
+
+2) Setup interaction between external input/output and DB/Tables.
+
+3) Setup log with, in order:
+   - -Date-: -Absolute value of ItemChange- -ItemName- [-ItemCode-] were
+   added to/taken from Compartment -StockAddress- by -ChangeOrigin- for
+   a new total of -ItemAmount- -ItemName- [-ItemCode-].
