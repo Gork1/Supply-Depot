@@ -5,6 +5,7 @@ To do :
 
 1) Create DB or 2 Tables.
    - One that stores each and every input/output in the depot.
+     - ItemName: Item Name
      - ItemCode: Item Code
      - Date: Date of input/output
      - ItemChange: Amount in/out
